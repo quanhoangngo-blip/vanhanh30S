@@ -45,7 +45,7 @@ ul{margin:8px 0 8px 4px;padding-left:20px} li{margin:5px 0}
 </style>
 
 <h1>Cơ chế cộng / trừ thưởng điện – nước salon</h1>
-<p class="sub">Tài liệu hướng dẫn cho GĐKV và SM · Khối Vận hành 30Shine · 13/08/2026</p>
+<p class="sub">Tài liệu hướng dẫn cho GĐKV và SM · Khối Vận hành 30Shine · cập nhật 21/08/2026</p>
 
 <div class="box">
 <b>Tóm tắt 30 giây.</b> Mỗi tháng, chi phí điện nước thực tế của salon được so với một <b>định mức</b>
@@ -61,6 +61,7 @@ tính theo diện tích, mùa và doanh thu. Dùng ít hơn nhiều thì <b>đư
 <div class="formula">ĐỊNH MỨC = Đơn giá theo mùa × Diện tích (m²)
          + 2,7% × Doanh thu thuần dịch vụ trong tháng
          + 4.500.000đ  (chỉ với salon có thang máy)</div>
+<p>Một số ít salon có kết cấu đặc thù được cộng thêm phần điều chỉnh riêng — xem <b>mục 5</b>.</p>
 
 <table>
 <tr><th style="width:22%">Mùa</th><th style="width:38%">Các tháng</th><th>Đơn giá mỗi m²</th></tr>
@@ -74,7 +75,55 @@ tính ra mức bình quân hợp lý theo diện tích – mùa – doanh thu, r
 Nghĩa là: mặc định trong chi phí hiện tại có khoảng <b>10% lãng phí có thể cắt</b>.
 Salon vận hành y như cũ sẽ nằm quanh mức 110% định mức — vẫn an toàn; muốn được thưởng thì phải tiết kiệm thật.</div>
 
-<h2>2. Ba vùng kết quả</h2>
+<h2>2. Vì sao số tầng không nằm trong công thức?</h2>
+<p>Sau khi bản trình bày trước được gửi, nhiều GĐKV đề xuất mở rộng phụ cấp thang máy sang salon nhiều tầng,
+với lý do salon càng nhiều tầng càng tốn điện. Khối Vận hành đã thu thập số tầng của toàn bộ salon và
+chạy lại mô hình trên <b>55 salon × 12 tháng</b>. Kết quả: <b>không đưa số tầng vào công thức</b>. Ba lý do.</p>
+
+<h3>a) Số m² trong công thức đã là diện tích cộng dồn các tầng</h3>
+<p>Đây là điểm hay bị hiểu nhầm. Con số m² dùng để tính định mức <b>không phải diện tích tầng trệt</b>,
+mà là <b>tổng diện tích đang sử dụng của tất cả các tầng</b>. Salon nhiều tầng vì thế đã được cấp định mức
+cao hơn ngay từ đầu — cộng thêm một khoản phụ cấp tầng nữa là tính hai lần cùng một thứ.</p>
+<table class="mini">
+<tr><th>Salon</th><th>m² dùng để tính định mức</th><th>Số tầng đang dùng</th><th>Bình quân mỗi tầng</th></tr>
+<tr><td>202 DC</td><td class="r">469 m²</td><td class="r">4</td><td class="r">117 m²</td></tr>
+<tr><td>145 THT</td><td class="r">414 m²</td><td class="r">3</td><td class="r">138 m²</td></tr>
+<tr><td>90 NH</td><td class="r">360 m²</td><td class="r">3</td><td class="r">120 m²</td></tr>
+<tr><td>186 DTH</td><td class="r">340 m²</td><td class="r">5</td><td class="r">68 m²</td></tr>
+<tr><td>168 NVC</td><td class="r">270 m²</td><td class="r">4</td><td class="r">68 m²</td></tr>
+</table>
+<p>Tầng bỏ trống <b>không được tính vào m²</b>, nên salon có tầng để không cũng không bị thiệt.
+Kiểm tra riêng trên 12 salon có tổng cộng 26 tầng bỏ trống: các tầng này không làm tăng chi phí điện —
+đúng như trực giác, tầng bỏ trống thì không chạy điều hòa.</p>
+
+<h3>b) Trên số liệu 12 tháng, salon nhiều tầng đang không bị thiệt</h3>
+<p>Cột quan trọng nhất là <b>tỷ lệ thực tế/định mức</b>. Salon vận hành đúng mặt bằng chung sẽ nằm quanh
+<b>1,11</b>; trên 1,15 là vào vùng bị trừ.</p>
+<table>
+<tr><th>Số tầng đang dùng</th><th class="r">Số salon</th><th class="r">Diện tích TB</th><th class="r">Tỷ lệ thực tế/định mức</th><th class="r">% lượt tháng bị trừ</th></tr>
+<tr><td><b>1 tầng</b></td><td class="r">24</td><td class="r">229 m²</td><td class="r"><b>1,15</b></td><td class="r"><b>49%</b></td></tr>
+<tr><td>2 tầng</td><td class="r">23</td><td class="r">182 m²</td><td class="r">1,05</td><td class="r">30%</td></tr>
+<tr><td>3 tầng</td><td class="r">5</td><td class="r">261 m²</td><td class="r">1,09</td><td class="r">35%</td></tr>
+<tr><td>4 tầng</td><td class="r">2</td><td class="r">370 m²</td><td class="r">1,00</td><td class="r">17%</td></tr>
+<tr><td>5 tầng</td><td class="r">1</td><td class="r">340 m²</td><td class="r">1,12</td><td class="r">42%</td></tr>
+</table>
+<p>Nhóm bị trừ nhiều nhất là <b>salon 1 tầng</b> (49% số lượt tháng), không phải salon nhiều tầng.
+Chi phí thực tế trên mỗi m² cũng đi cùng chiều: salon 1 tầng <b>98.100đ/m²</b>, 2 tầng <b>86.300đ/m²</b>,
+4 tầng <b>79.600đ/m²</b>. Lý do dễ hiểu: tầng trên phục vụ ít khách hơn, điều hòa chạy ít giờ hơn,
+không có mặt tiền và biển hiệu.</p>
+
+<h3>c) Nếu vẫn đưa số tầng vào, salon nhiều tầng sẽ bị siết chặt hơn</h3>
+<p>Khi để dữ liệu tự quyết định hệ số, biến số tầng ra <b>dấu âm</b> — nghĩa là cùng diện tích và cùng
+doanh thu, salon nhiều tầng tốn <i>ít</i> điện nước hơn. Áp đúng kết quả đó thì định mức của
+186 DTH, 145 THT, 341 XVNT, 168 NVC sẽ <b>giảm</b>, và các salon này bị trừ nhiều hơn hiện nay —
+ngược hẳn mong muốn ban đầu. Còn nếu bỏ qua dữ liệu và cộng thẳng một khoản phụ cấp tầng, thì đó là
+<b>nới định mức cho nhóm đang thoải mái nhất</b> chứ không làm định mức chính xác hơn.</p>
+
+<div class="box"><b>Kết luận.</b> Công thức giữ nguyên ba thành phần: diện tích × mùa, phần trăm doanh thu,
+và phụ cấp cho salon có kết cấu đặc thù. Số tầng đã nằm sẵn trong diện tích. Thay cho một biến số tầng
+áp chung, những salon thực sự bị thiệt vì kết cấu được xử lý riêng ở mục 5.</div>
+
+<h2>3. Ba vùng kết quả</h2>
 <p>Chỉ số quyết định là <b>Tỷ lệ điện nước thực tế / điện nước định mức</b>:</p>
 <div class="formula">Tỷ lệ thực tế/định mức = Chi phí điện nước thực tế ÷ Định mức</div>
 
@@ -106,7 +155,7 @@ Salon vận hành y như cũ sẽ nằm quanh mức 110% định mức — vẫn
 nguyên nhân: rò rỉ nước, thiết bị hỏng, điều hòa quá tải, màn hình quảng cáo chạy 24/7, đồng hồ đo sai.
 Mức chênh lớn như vậy thường là vấn đề kỹ thuật chứ không phải thói quen dùng điện.</p>
 
-<h2>3. Ai chịu tiền trừ?</h2>
+<h2>4. Ai chịu tiền trừ?</h2>
 <table>
 <tr><th style="width:20%">Người</th><th style="width:16%">Tỷ lệ chịu</th><th>Trần mỗi tháng</th></tr>
 <tr><td><b>SM salon</b></td><td><b>70%</b></td><td rowspan="2">MIN(<b>2.000.000đ</b>; 10% × thưởng KPI khách – doanh thu)</td></tr>
@@ -115,7 +164,44 @@ Mức chênh lớn như vậy thường là vấn đề kỹ thuật chứ khôn
 <p>Trần áp <b>cho từng người, từng tháng</b>. Dù salon vượt định mức bao nhiêu, một SM hay một GĐKV
 cũng không bị trừ quá 2 triệu trong tháng đó. Tháng Tết tính bình thường như các tháng khác.</p>
 
-<h2>4. Ví dụ tính chi tiết</h2>
+<h2>5. Salon đặc thù — điều chỉnh riêng</h2>
+<p>Một số salon vượt định mức <b>liên tục nhiều tháng vì lý do kết cấu hoặc kỹ thuật</b>, không phải vì
+thói quen dùng điện. Trừ thưởng SM trong các trường hợp này không giải quyết được nguyên nhân.
+Vì vậy có một danh sách riêng — <b>sổ salon đặc thù</b> — với hai công cụ điều chỉnh, <b>công thức chung giữ nguyên</b>:</p>
+<div class="formula">Diện tích quy đổi = Diện tích thực × 1,20      (tăng 20%)
+Phụ cấp kết cấu  = 2.000.000đ/tháng            (cộng thẳng vào định mức)</div>
+
+<h3>Ba salon được duyệt đợt này</h3>
+<table>
+<tr><th>Salon</th><th>Lý do</th><th class="r">Tỷ lệ trước</th><th class="r">Tỷ lệ sau</th><th class="r">Số tháng bị trừ</th></tr>
+<tr><td><b>36 N1 BD</b></td><td>Trần cao, mặt bằng rộng không ngăn khu — thể tích cần làm mát lớn hơn nhiều so với diện tích sàn ghi trong hồ sơ</td><td class="r">1,38</td><td class="r"><b>1,11</b></td><td class="r">12 → 4</td></tr>
+<tr><td><b>116 TK</b></td><td>Dùng hệ điều hòa cũ bàn giao theo mặt bằng của toà nhà, tiêu thụ cao hơn hẳn salon cùng cỡ</td><td class="r">1,32</td><td class="r"><b>1,15</b></td><td class="r">6 → 5</td></tr>
+<tr><td><b>148 TD</b></td><td>Tải dùng chung với chủ nhà (thang máy và phần diện tích chủ nhà sử dụng) nhưng salon trả toàn bộ tiền điện</td><td class="r">1,56</td><td class="r"><b>1,18</b></td><td class="r">12 → 7</td></tr>
+</table>
+<p>Điều chỉnh này làm giảm khoảng <b>2,2 triệu tiền trừ mỗi tháng</b> cho toàn khối. Ba salon về vùng
+trung tính hoặc sát biên, nhưng <b>vẫn nằm trong cơ chế</b> — tháng nào tiêu thụ vọt lên bất thường thì vẫn bị trừ.</p>
+
+<div class="box"><b>Salon 10 TP</b> tiếp tục <b>tách hoàn toàn khỏi cơ chế</b> (không trừ, không thưởng) cho tới khi
+Vận hành và Kỹ thuật có kết luận nguyên nhân. Mức tiêu thụ của salon này gấp khoảng 2 lần salon cùng quy mô,
+là dấu hiệu vấn đề kỹ thuật hoặc đo đếm chứ không phải vận hành.</div>
+
+<h3>Muốn đưa salon vào sổ đặc thù thì cần gì?</h3>
+<p>Phải đủ <b>cả hai</b>:</p>
+<ul>
+<li><b>Điều kiện số liệu:</b> tỷ lệ thực tế/định mức <b>≥ 1,15 trong ít nhất 9 trong 12 tháng gần nhất</b>,
+<b>và</b> tiền điện cao hơn ít nhất <b>25%</b> so với nhóm salon tương đương (cùng diện tích ±20% và cùng doanh thu ±20%).</li>
+<li><b>Điều kiện hiện trường:</b> biên bản kiểm tra chung của Vận hành và Kỹ thuật, chỉ rõ nguyên nhân vật lý
+(trần cao, tải dùng chung với chủ nhà, thiết bị cũ bàn giao theo mặt bằng, đồng hồ đo, rò rỉ…).</li>
+</ul>
+<p>GĐKV nào thấy salon của mình đủ điều kiện thì gửi đề xuất kèm số liệu về Khối Vận hành.
+Chỉ đề xuất bằng lời, không có hai điều kiện trên, sẽ không được xét — để cơ chế không bị bào mòn dần.</p>
+<ul>
+<li><b>Rà soát 6 tháng một lần.</b> Nguyên nhân được khắc phục thì salon quay lại định mức chuẩn.</li>
+<li><b>Tối đa 3 salon</b> nằm trong sổ tại một thời điểm. Danh sách và lý do công khai với toàn bộ GĐKV.</li>
+<li>Nếu số salon đủ điều kiện vượt quá mức này, đó là dấu hiệu công thức cần sửa chứ không phải cấp thêm ngoại lệ.</li>
+</ul>
+
+<h2>6. Ví dụ tính chi tiết</h2>
 
 <div class="vd green">
   <div class="vd-h"><span class="tag">Ví dụ 1</span> Tiết kiệm tốt → được cộng thưởng (chạm trần 1tr)
@@ -167,7 +253,7 @@ cũng không bị trừ quá 2 triệu trong tháng đó. Tháng Tết tính bì
   <div class="kq">➜ Cộng dồn 2.529.663đ vượt trần ⇒ GĐKV chỉ bị trừ <b>2.000.000đ</b> trong tháng 6.</div>
 </div>
 
-<h2>5. Bảng tính ví dụ – 10 trường hợp thật</h2>
+<h2>7. Bảng tính ví dụ – 10 trường hợp thật</h2>
 <p>Cột định mức ghi rõ công thức đã thay số để anh/chị tự đối chiếu.</p>
 <table>
 <tr><th>Salon</th><th>Tháng</th><th>m²</th><th>Mùa</th><th>DTT dịch vụ</th><th>Điện nước thực tế</th>
@@ -175,7 +261,7 @@ cũng không bị trừ quá 2 triệu trong tháng đó. Tháng Tết tính bì
 <tr><td><b>80 TP TH</b></td><td>T2/26</td><td class="r">132</td><td>Thường</td><td class="r">377.378.868</td><td class="r">6.299.886</td><td class="fx">31.000 × 132m² + 2,7% × 377.378.868<br><b>= 14.281.229</b></td><td class="r"><b>0,44</b></td><td class="r">1,7%</td><td><span class="b g">Cộng 1.000.000đ</span></td></tr><tr><td><b>595 BT TH</b></td><td>T2/26</td><td class="r">106</td><td>Thường</td><td class="r">289.842.450</td><td class="r">4.296.168</td><td class="fx">31.000 × 106m² + 2,7% × 289.842.450<br><b>= 11.111.746</b></td><td class="r"><b>0,39</b></td><td class="r">1,5%</td><td><span class="b g">Cộng 918.646đ</span></td></tr><tr><td><b>173 TN</b></td><td>T4/26</td><td class="r">175</td><td>Thường</td><td class="r">340.822.000</td><td class="r">11.819.509</td><td class="fx">31.000 × 175m² + 2,7% × 340.822.000<br><b>= 14.627.194</b></td><td class="r"><b>0,81</b></td><td class="r">3,5%</td><td><span class="b gr">Trung tính</span></td></tr><tr><td><b>80 TP TH</b></td><td>T6/26</td><td class="r">132</td><td>Nóng</td><td class="r">220.835.000</td><td class="r">9.685.846</td><td class="fx">45.000 × 132m² + 2,7% × 220.835.000<br><b>= 11.902.545</b></td><td class="r"><b>0,81</b></td><td class="r">4,4%</td><td><span class="b gr">Trung tính</span></td></tr><tr><td><b>25 TD</b></td><td>T4/26</td><td class="r">280</td><td>Thường</td><td class="r">615.732.000</td><td class="r">29.714.073</td><td class="fx">31.000 × 280m² + 2,7% × 615.732.000<br><b>= 25.304.764</b></td><td class="r"><b>1,17</b></td><td class="r">4,8%</td><td><span class="b bl">Miễn trừ</span></td></tr><tr><td><b>362 NGT BN</b></td><td>T6/26</td><td class="r">150</td><td>Nóng</td><td class="r">501.874.000</td><td class="r">23.584.475</td><td class="fx">45.000 × 150m² + 2,7% × 501.874.000<br><b>= 20.300.598</b></td><td class="r"><b>1,16</b></td><td class="r">4,7%</td><td><span class="b bl">Miễn trừ</span></td></tr><tr><td><b>1371 PVT</b></td><td>T6/26</td><td class="r">121</td><td>Nóng</td><td class="r">198.267.000</td><td class="r">12.642.184</td><td class="fx">45.000 × 121m² + 2,7% × 198.267.000<br><b>= 10.798.209</b></td><td class="r"><b>1,17</b></td><td class="r">6,4%</td><td><span class="b r">SM −47.091đ</span></td></tr><tr><td><b>12 LDT</b></td><td>T4/26</td><td class="r">252</td><td>Thường</td><td class="r">430.070.000</td><td class="r">30.815.293</td><td class="fx">31.000 × 252m² + 2,7% × 430.070.000<br><b>= 19.423.890</b></td><td class="r"><b>1,59</b></td><td class="r">7,2%</td><td><span class="b r">SM −1.780.342đ</span></td></tr><tr><td><b>148 TD</b></td><td>T6/26</td><td class="r">121</td><td>Nóng</td><td class="r">176.822.000</td><td class="r">17.714.570</td><td class="fx">45.000 × 121m² + 2,7% × 176.822.000<br><b>= 10.219.194</b></td><td class="r"><b>1,73</b></td><td class="r">10,0%</td><td><span class="b r">SM −1.252.124đ</span> <span class="b flag">cờ điều tra</span></td></tr><tr><td><b>116 TK</b></td><td>T6/26</td><td class="r">216</td><td>Nóng</td><td class="r">694.442.000</td><td class="r">46.929.401</td><td class="fx">45.000 × 216m² + 2,7% × 694.442.000<br><b>= 28.469.934</b></td><td class="r"><b>1,65</b></td><td class="r">6,8%</td><td><span class="b r">SM −2.000.000đ</span> <span class="b flag">cờ điều tra</span></td></tr>
 </table>
 
-<h2>6. Thử trên số liệu thật – 4 tháng gần đây</h2>
+<h2>8. Thử trên số liệu thật – 4 tháng gần đây</h2>
 <p>Chạy cơ chế này trên số liệu đã xảy ra của 56 salon (chưa áp dụng thật, chỉ để thấy mức độ):</p>
 <table>
 <tr><th>Tháng</th><th>Salon được thưởng</th><th>Trung tính</th><th>Miễn trừ</th><th>Salon bị trừ</th>
@@ -198,7 +284,7 @@ cũng không bị trừ quá 2 triệu trong tháng đó. Tháng Tết tính bì
 <p>Bình quân khoảng <b>21,8 salon bị trừ mỗi tháng</b>, tổng tiền trừ <b>≈20 triệu/tháng</b> cho toàn khối.
 Trong 12 tháng chỉ có <b>5 lượt</b> SM bị trừ chạm trần 2 triệu.</p>
 
-<h2>7. SM cần làm gì để không bị trừ</h2>
+<h2>9. SM cần làm gì để không bị trừ</h2>
 <ul>
 <li><b>Điều hòa</b>: đặt 25–26°C, tắt khu vực không có khách, kiểm tra cửa/rèm không để thất thoát hơi lạnh.</li>
 <li><b>Đèn và biển hiệu</b>: tắt đèn khu vực trống, biển hiệu và màn hình quảng cáo theo đúng khung giờ, không để chạy qua đêm.</li>
@@ -208,16 +294,27 @@ Trong 12 tháng chỉ có <b>5 lượt</b> SM bị trừ chạm trần 2 triệu
 <li><b>Có sự cố thì báo ngay</b>: sửa chữa, chập điện, mất nước — báo và được duyệt thì tháng đó được miễn trừ.</li>
 </ul>
 
-<h2>8. Câu hỏi thường gặp</h2>
+<h2>10. Câu hỏi thường gặp</h2>
 <p><b>Salon tôi rộng và đông khách nên tiền điện cao, có bị thiệt không?</b><br>
 Không. Định mức đã cộng theo cả diện tích lẫn doanh thu — salon càng rộng, càng đông khách thì định mức càng cao.</p>
 <p><b>Mùa hè miền Nam nóng quanh năm, tính chung với miền Bắc có công bằng không?</b><br>
-Lịch mùa dùng chung để cơ chế đơn giản, dễ nhớ. Trên số liệu 12 tháng, tổng tiền trừ của các salon miền Nam
-không tăng so với cách tính riêng từng miền — chỉ dịch chuyển giữa các tháng trong năm.</p>
+Lịch mùa dùng chung được chọn để cơ chế đơn giản và dễ nhớ, nhưng nói cho đúng thì lịch chung
+<b>có bất lợi cho miền Nam</b>: trong các tháng 10 đến 4, đơn giá hạ xuống 31.000đ/m² trong khi
+salon miền Nam vẫn chạy điều hòa gần như mùa nóng. Trên số liệu 12 tháng, tỷ lệ thực tế/định mức
+bình quân của miền Nam là 1,18 trong mùa thường, còn miền Bắc là 1,02.
+Khối Vận hành đã ghi nhận và sẽ đưa việc tách lịch mùa theo miền vào đợt rà soát hệ số tiếp theo;
+đợt này giữ nguyên để không thay đổi quá nhiều thứ cùng lúc.</p>
 <p><b>Tháng trước tôi bị trừ, tháng này tiết kiệm được thì có được hoàn lại không?</b><br>
 Không hoàn lại, nhưng tháng nào tính riêng tháng đó — tiết kiệm xuống dưới 80% định mức là được cộng thưởng ngay.</p>
+<p><b>Salon tôi nhiều tầng, có được cộng thêm định mức như salon có thang máy không?</b><br>
+Không cần, vì số m² dùng để tính định mức đã là tổng diện tích của tất cả các tầng đang sử dụng —
+salon nhiều tầng đã có định mức cao hơn tương ứng. Số liệu 12 tháng cũng cho thấy nhóm bị trừ nhiều nhất
+là salon 1 tầng chứ không phải salon nhiều tầng. Chi tiết ở mục 2.</p>
+<p><b>Salon tôi trần cao / mặt bằng rộng không ngăn khu, tốn điều hòa hơn thật thì sao?</b><br>
+Đây là lý do có sổ salon đặc thù ở mục 5. Gửi đề xuất kèm số liệu 12 tháng về Khối Vận hành,
+đủ điều kiện thì được cấp diện tích quy đổi và phụ cấp kết cấu.</p>
 <p><b>Nếu đồng hồ đo sai hoặc bị chia sẻ điện với hộ khác thì sao?</b><br>
 Báo Vận hành để kiểm tra. Salon vượt trên 160% định mức sẽ tự động được gắn cờ điều tra nguyên nhân.</p>
 
 <p class="foot">Khối Vận hành 30Shine · Cơ chế cộng/trừ thưởng điện – nước (PA10) · Số liệu backtest T7/2025 – T6/2026,
-56 salon · Chi tiết từng salon xem file “10_PA10 - Bảng tính thưởng-trừ thưởng.xlsx”.</p>
+56 salon · Bản cập nhật 21/08/2026: bổ sung mục 2 (số tầng) và mục 5 (sổ salon đặc thù) sau góp ý của GĐKV. Chi tiết từng salon xem file “10_PA10 - Bảng tính thưởng-trừ thưởng.xlsx”; phân tích biến số tầng xem “12_PA11 - Đánh giá đưa biến số tầng vào định mức.md”.</p>
